@@ -99,6 +99,7 @@ img {
   width: 70%;
   text-align: center;
   z-index: 33;
+  padding-bottom: 5px;
 }
 
 .headtitle {
@@ -106,6 +107,10 @@ img {
   font-size: 1.6rem;
   font-weight: bold;
   z-index: 35;
+}
+
+.subtitle {
+  font-family: monospace;
 }
 
 /* main */
@@ -134,7 +139,7 @@ img {
 }
 
 .date-text {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-size: 1.1rem;
   font-family: monospace;
@@ -223,4 +228,25 @@ img {
 }
 .margin-top450px {
   margin-top: 450px;
+}
+
+/* footer */
+.box-footer-text {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 70%;
+  height: auto;
+  border: solid 3px #ffffff;
+  background-color: rgb(65, 65, 65);
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  z-index: 30;
+}
+.footer-text {
+  margin-top: 5px;
+}
+.indent {
+  text-indent: 20px;
 }
