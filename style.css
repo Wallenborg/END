@@ -37,13 +37,16 @@ img {
 .scrolling-container {
   overflow: auto;
   height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .scrolling-container.active {
   overflow: hidden;
 }
 
 .content {
-  height: 6000px;
+  height: 11000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +74,10 @@ img {
 .end {
   align-self: end;
   margin-right: 10px;
+}
+.center {
+  align-self: center;
+  background-color: rgb(65, 65, 65);
 }
 
 /* header */
@@ -119,7 +126,7 @@ img {
   position: fixed;
   top: 200px;
   width: 250px;
-  height: 100px;
+  height: 50px;
   background-color: rgb(65, 65, 65);
   border: solid 3px #ffffff;
   border-radius: 10px;
@@ -130,7 +137,7 @@ img {
   position: fixed;
   top: 200px;
   width: 250px;
-  height: 100px;
+  height: 50px;
   border: solid 3px #ffffff;
   background-color: #ffffff05;
   backdrop-filter: blur(0.5px);
@@ -207,9 +214,16 @@ img {
 .margin-top20px {
   margin-top: 20px;
 }
+.margin-top40px {
+  margin-top: 40px;
+}
 
 .margin-top60px {
   margin-top: 60px;
+}
+
+.margin-top100px {
+  margin-top: 100px;
 }
 .margin-top150px {
   margin-top: 150px;
@@ -246,6 +260,7 @@ img {
 }
 .footer-text {
   margin-top: 5px;
+  font-size: 1.2rem;
 }
 .indent {
   text-indent: 20px;

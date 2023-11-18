@@ -58,9 +58,6 @@ let scrollingContainerEl = document.querySelector(".scrolling-container");
 for (let i = 0; i < buttonEls.length; i++) {
   let buttonEl = buttonEls[i];
 
-  // do something with buttonEl and i
-  // here I just add a click listener that logs the button number
-
   buttonEl.addEventListener("click", function (e) {
     e.stopPropagation();
     shapeBoxEl.classList.add("active");
@@ -88,4 +85,16 @@ let messageArray = [
   "In the labyrinth of 1378, a Joachite named Arnaldus de Villa Nova penned a prophecy etched with foreboding. His inked words whispered of a looming specter—the Antichrist, destined to emerge in that fateful year, casting shadows upon the threshold of an era brimming with apocalyptic end.",
   "In the Renaissance canvas of 1504, the artist Sandro Botticelli, immersed in his own tapestry of belief, felt the weight of tribulation. In hues of revelation, he painted whispers of impending change—the Millennium's dawn, Devil unshackled yet destined for chains, woven into the strokes of The Mystical Nativity, a masterpiece that mirrored his apocalyptic visions that foretold the coming end",
   "In the cobblestone streets of 1524 London, a chorus of astrologers spun a tale of impending end. Guided by calculations from the previous June, their prophecy painted a flood-born finale. A tide of anticipation surged as twenty thousand souls fled homes, seeking refuge on higher ground, breaths held in collective suspense for the impending watery reckoning.",
+  "In the celestial ballet of 1528, Johannes Stöffler, an astrologer attuned to cosmic whispers, read the stars in the Pisces alignment. To him, this celestial choreography marked not just an astronomical event but a harbinger of the end, a cosmic proclamation etched in the shimmering tapestry of the night sky.",
+  "In the whispers of 1533, the Anabaptist prophet Melchior Hoffman wove a tale of divine reckoning. His gaze fixed on Strasbourg, he prophesied the grand return of Christ. A sacred number, 144,000, were destined for salvation, as the world beyond would succumb to the relentless embrace of cleansing flames.",
+  "Martin Luther, the architect of the Protestant Reformation, cast a solemn shadow. A German priest and scholar, he penned a chapter of anticipation, foreseeing the end of the world would occur no later than 1600.",
+  "London's astrologers, undeterred by past prophecies,Once heralds of a deluge in 1524, they adjusted their cosmic compass, setting a new course—a century later, a revised date for the end, woven into the fabric of their unwavering celestial saga.",
+  "In the echoes of 1572, physician Helisaeus Roeslin deciphered celestial whispers. A nova's glow fueled his prophecy—the world's final chapter, etched in cosmic ink. His gaze, a bridge to 1654, painted a tale of apocalyptic anticipation, where destiny awaited its cosmic end.",
+  "Within the pages of his Book of Prophecies (1501), Christopher Columbus penned a spectral tale. His ink, a conduit to the future, traced a prophecy that whispered That the world would end during the year 1956.",
+  "In the tapestry of time, the ominous threads of 666, the death toll of 100,000 to bubonic plague, and the fiery dance of the Great Fire of London wove a superstitious spell. Among Christians, whispers of the world's end mingled with the smoke, rising from embers of fear in the city's heart",
+  "In the quiet study of numbers, mathematician John Napier unfurled a tale. His calculations, rooted in the ancient scrolls of the Book of Revelation, painted a canvas of prophecy. The year 1688 emerged as the end of the world—a numerical tapestry of anticipation.",
+  "In the heart of Camisard prophecy, whispers of imminent doom echoed. The seers painted a triptych of fate, foreseeing the world's end poised to unfurl in the tapestry of time—1705, 1706, or the enigmatic dance of 1708, veiled in the mystic threads of anticipation.",
+  "In the realm of celestial predictions, mathematician Jacob Bernoulli cast his gaze toward the heavens. His calculations etched a tale of cosmic peril, foretelling the Earth's demise in the looming shadow of a comet. The year 1719 became the end in the unfolding narrative of celestial reckoning.",
+  "Emanuel Swedenborg, once tethered to Luther's teachings, wove a tale transcending realms. In 1957, his narrative unfolded beyond earthly confines—the Last Judgement, a spiritual crescendo in realms unseen, etched in the celestial chronicles of his mystical journey.",
+  "",
 ];
